@@ -7,5 +7,6 @@ h1{
   text-align:center;
   text-transform:capitalize;
   text-shadow: 2px 2px 5px #70798c;
-  text-size:150px;
+  font-family:Trattatello, fantasy;
+  font-size:90px;
 }
