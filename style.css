@@ -3,8 +3,9 @@ body{
 }
 
 h1{
-  color:black;
+  color:#f5f1ed;
   text-align:center;
   text-transform:capitalize;
-  text-shadow: 2px 2px 5px #f5f1ed;
+  text-shadow: 2px 2px 5px #70798c;
+  text-size:60px;
 }
