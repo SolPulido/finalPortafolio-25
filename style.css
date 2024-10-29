@@ -2,14 +2,11 @@ body{
   background-color:#252323;
 }
 
-h1{
+.animated-title {
+  display: flex;
   color:white;
   font-shadow: 5px 5px 5px 5px #70798c;
   fon-family:cursive;
-}
-
-.animated-title {
-  display: flex;
 }
 
 .animated-title span {
