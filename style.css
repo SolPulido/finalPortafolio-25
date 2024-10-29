@@ -6,7 +6,9 @@ body{
   display: flex;
   color:white;
   text-shadow: 5px 5px 5px #324a5f;
-  fon-family:cursive,arial;
+  font-family:fantasy;
+  text-align:center;
+  
 }
 
 .animated-title span {
