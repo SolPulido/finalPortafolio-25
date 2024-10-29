@@ -38,5 +38,8 @@ body{
 .animated-title span:nth-child(13) { animation-delay: 1.6s; }
 
 
-
+h1{
+  color:white;
+  font-shadow: 5px 5px 5px 5px #70798c;
+}
 
