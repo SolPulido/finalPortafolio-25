@@ -8,18 +8,18 @@ body{
 
 .animated-title {
   text-align: center;
+  font-size:90px;
   display: flex;
   color: white;
   text-shadow: 5px 5px 5px #324a5f;
   font-family: fantasy;
   padding-bottom: 10px; 
-  font-size:130px;
   
 }
 
 .animated-title span {
   opacity: 0;
-  transform: translateY(200px);
+  transform: translateY(120px);
   animation: moveIn 0.5s forwards;
   
 }
