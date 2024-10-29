@@ -1,8 +1,11 @@
 body{
   display: grid;
-  text-align:center;
+  justify-content:center;
+  align-items: flex-start;
   height: 100vh;  
+  padding-top: 20px;
   background-color:#626267;
+  
 }
 
 .animated-title {
