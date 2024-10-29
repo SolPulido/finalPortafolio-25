@@ -7,15 +7,15 @@ body{
   color:white;
   text-shadow: 5px 5px 5px #324a5f;
   font-family:fantasy;
-  text-align: center;
   
 }
 
 .animated-title span {
   display: inline-block;
   opacity: 0;
-  transform: translateY(150px);
+  transform: translateY(120px);
   animation: moveIn 0.5s forwards;
+  text-align:center;
 }
 
 @keyframes moveIn {
