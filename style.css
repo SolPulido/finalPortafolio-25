@@ -5,8 +5,8 @@ body{
 .animated-title {
   display: flex;
   color:white;
-  font-shadow: 5px 5px 5px 5px #70798c;
-  fon-family:cursive;
+  text-shadow: 5px 5px 5px 5px #70798c;
+  fon-family:cursive,arial;
 }
 
 .animated-title span {
