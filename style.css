@@ -3,19 +3,20 @@ body{
 }
 
 .animated-title {
+  text-align:center;
   display: flex;
   color:white;
   text-shadow: 5px 5px 5px #324a5f;
   font-family:fantasy;
-  text-align:center;
   
 }
 
 .animated-title span {
+  text-align:center;
   opacity: 0;
   transform: translateY(120px);
   animation: moveIn 0.5s forwards;
-  text-align:center;
+  
 }
 
 @keyframes moveIn {
