@@ -49,12 +49,11 @@ body{
 .animated-title span:nth-child(16) { animation-delay: 0.12s; }
 .animated-title span:nth-child(17) { animation-delay: 0.13s; }
 .animated-title span:nth-child(18) { animation-delay: 0.14s; }
-.animated-title span:nth-child(19) { animation-delay: 0.15s; }
-.animated-title span:nth-child(20) { animation-delay: 0.16s; }
-.animated-title span:nth-child(21) { animation-delay: 0.17s; }
-.animated-title span:nth-child(22) { animation-delay: 0.18s; }
-.animated-title span:nth-child(23) { animation-delay: 0.19s; }
-.animated-title span:nth-child(24) { animation-delay: 0.20s; }
+.animated-title span:nth-child(20) { animation-delay: 0.15s; }
+.animated-title span:nth-child(21) { animation-delay: 0.16s; }
+.animated-title span:nth-child(22) { animation-delay: 0.17s; }
+.animated-title span:nth-child(23) { animation-delay: 0.18s; }
+.animated-title span:nth-child(24) { animation-delay: 0.19s; }
 
 
 
