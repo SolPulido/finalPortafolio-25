@@ -21,7 +21,7 @@ body{
 .animated-title span {
   opacity: 0;
   transform: translateY(120px);
-  animation: moveIn 0.5s forwards;
+  animation: moveIn 0.9s forwards;
   
 }
 
