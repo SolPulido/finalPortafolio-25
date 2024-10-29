@@ -47,5 +47,9 @@ body{
 .animated-title span:nth-child(16) { animation-delay: 1.6s; }
 
 
+p {
+    margin-top: 10px; 
+    color: white; 
+}
 
 
