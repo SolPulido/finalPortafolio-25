@@ -1,19 +1,22 @@
 body{
-  background-color:#252323;
-  align-items:center;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+  background-color:#626267;
 }
 
 .animated-title {
-  text-align:center;
+  text-align: center;
   display: flex;
-  color:white;
+  color: white;
   text-shadow: 5px 5px 5px #324a5f;
-  font-family:fantasy;
+  font-family: fantasy;
   
 }
 
 .animated-title span {
-  text-align:center;
+  text-align: center;
   opacity: 0;
   transform: translateY(120px);
   animation: moveIn 0.5s forwards;
@@ -22,7 +25,7 @@ body{
 
 @keyframes moveIn {
   to {
-    opacity: 2;
+    opacity: 1;
     transform: translateY(0);
   }
 }
