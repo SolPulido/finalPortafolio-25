@@ -1,6 +1,6 @@
 body{
-  justify-content: center;
-  align-items: center; 
+  isplay: grid;
+  place-items: center;
   height: 100vh; 
   margin: 0; 
   background-color:#626267;
