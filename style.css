@@ -3,7 +3,6 @@ body{
   place-items:center;
   height: 100vh; 
   background-color:#626267;
-  font-size:130px;
   
 }
 
@@ -14,6 +13,7 @@ body{
   text-shadow: 5px 5px 5px #324a5f;
   font-family: fantasy;
   padding-bottom: 10px; 
+  font-size:130px;
   
 }
 
