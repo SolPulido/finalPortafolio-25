@@ -17,7 +17,7 @@ body {
 .moving-title {
     position: absolute;
     font-size: 2em;
-    color: #333;
+    color: pink;
     animation: moveIn 3s ease-in-out forwards;
 }
 
