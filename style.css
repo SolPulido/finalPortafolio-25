@@ -1,57 +1,51 @@
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
-.container {
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 20px;
 }
 
-.title {
-    font-family: 'Cursive', sans-serif;
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-}
-
-.navbar ul {
+nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-.navbar li {
+nav ul li {
     display: inline;
+    margin: 0 15px;
 }
 
-.navbar a {
-    display: inline-block;
+nav a {
     color: white;
     text-decoration: none;
-    padding: 15px 20px;
 }
 
-.navbar a:hover {
-    background-color: #575757;
-}
-
-.content {
-    margin-top: 20px;
-}
-
-.box {
-    background-color: white;
-    border: 1px solid #ccc;
-    margin: 20px auto;
+section {
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
+    margin: 20px;
+    background: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
 }
