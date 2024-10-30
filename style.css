@@ -5,6 +5,11 @@
     height: 140px;
 }
 
+h2{
+    color:#e8fad4;
+    font-family:monospace;
+}
+
 .moving-title {
     position: absolute;
     font-size: 3.8em;
