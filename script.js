@@ -1,7 +1,5 @@
-// Animation for title
-const title = document.querySelector('.title');
-if (title) {
-    window.onload = () => {
-        title.style.transform = 'translateY(0)';
-    };
-}
+// You can add interactivity here if needed
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for your message!');
+});
