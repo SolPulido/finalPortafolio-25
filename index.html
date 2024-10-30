@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="title">Welcome to My Portfolio</h1>
-        <nav class="navbar">
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="content">
-            <section class="box">
-                <h2>Welcome!</h2>
-                <p>This is a brief introduction to my portfolio website.</p>
-            </section>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am a web developer with a passion for creating dynamic and beautiful web applications.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A brief description of project 1.</p>
+            <button onclick="alert('More about Project 1')">Learn More</button>
         </div>
-    </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A brief description of project 2.</p>
+            <button onclick="alert('More about Project 2')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
