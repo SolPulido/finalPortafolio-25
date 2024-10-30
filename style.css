@@ -73,14 +73,14 @@ nav {
 
     display: flex;
     gap: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 nav>button {
     position: relative;
     display: grid;
     place-content: center;
     grid-template-areas: 'stack';
-    padding: 0 1.5rem;
+    padding: 0 1.9rem;
     text-transform: uppercase;
     font-weight: 300;
     font-family:fantasy;
@@ -93,7 +93,7 @@ nav>button>span {
 }
 
 nav>button>span:last-of-type {
-    margin-top: 0.25rem;
+    margin-top: 0.30rem;
     transform: scale(0);
     transition-delay: 0ms;
     border-radius: 50%;
