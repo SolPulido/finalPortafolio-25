@@ -157,8 +157,6 @@ nav>button:hover>svg {
     height: 100%;
     pointer-events: none; 
     z-index: 0; 
-    width:60px;
-    height:80px;
 }
 
 .floating-image {
