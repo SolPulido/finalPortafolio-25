@@ -182,24 +182,32 @@ nav>button:hover>svg {
     top: 10%;
     left: 4%;
     animation-delay: 0s;
+    width:800px;
+    height:400px;
 }
 
 .floating-image:nth-child(2) {
     top: 3%;
     right: 1%;
     animation-delay: 1s;
+    width:800px;
+    height:400px;
 }
 
 .floating-image:nth-child(3) {
     bottom: 0.2%;
     left: 20%;
     animation-delay: 2s;
+    width:800px;
+    height:400px;
 }
 
 .floating-image:nth-child(4) {
     bottom: 8%;
     right: 10%;
     animation-delay: 3s;
+    width:800px;
+    height:400px;
 }
 
 #homelinks{
