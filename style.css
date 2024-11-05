@@ -161,7 +161,7 @@ nav>button:hover>svg {
 
 .floating-image {
     position: absolute;
-    width: 800px; 
+    width: 100px; 
     animation: float 6s ease-in-out infinite; 
 }
 
