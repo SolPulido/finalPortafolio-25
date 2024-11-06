@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+
+        .about-me {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .about-me img {
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .about-me-text {
+            flex: 1;
+            max-width: 60%;
+        }
+
+        .about-me-text h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .about-me-text p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .skills {
+            margin-top: 30px;
+        }
+
+        .skills ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills li {
+            background-color: #555;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+    </style>
 </head>
 <body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <div class="container">
+        <section class="about-me" id="about">
+            <img src="https://via.placeholder.com/200" alt="Profile Picture">
+            <div class="about-me-text">
+                <h2>Hey! My Name is Sol</h2>
+                <p>I'm a passionate student who is being learning about web developing.I have created a love towards creating innovative and user-friendly websites. I'm always learning new stuff to make my work better by improving my skills</p>
+                <p>I love working on exciting projects that challenge my skills and let me grow. When I'm not coding, I enjoy music and drawing, playing badminton, and reading.</p>
+            </div>
+        </section>
 
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If to know more about me or have questions, feel free to reach out through the following:</p>
+            <p>Email: <a href="soladalyps@gmail.com">soladalyps@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sol pulido. All rights reserved.</p>
+    </footer>
 </body>
 </html>
