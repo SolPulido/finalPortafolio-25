@@ -161,9 +161,11 @@ nav>button:hover>svg {
 
 .floating-image {
     position: absolute;
-    width: 100px; 
-    animation: float 6s ease-in-out infinite; 
+    width: 200px;  
+    height: auto; 
+    animation: float 6s ease-in-out infinite;
 }
+
 
 @keyframes float {
     0% {
@@ -182,6 +184,7 @@ nav>button:hover>svg {
     top: 10%;
     left: 4%;
     animation-delay: 0s;
+    
 
    
 }
