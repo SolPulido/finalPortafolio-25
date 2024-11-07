@@ -215,7 +215,3 @@ nav>button:hover>svg {
 }
 
 
-
-.background:hover {
-    animation: mouseMoveEffect 0.5s ease-in-out infinite alternate;
-}
