@@ -1,6 +1,42 @@
+<?php
+// Process the form if it is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get the form data
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['message']);
+
+    // Set the recipient email address
+    $to = "soladalyp@nycstudents.net";  // Your email address
+
+    // Set the email subject
+    $subject = "New Message from Contact Form";
+
+    // Build the email content
+    $body = "You have received a new message from the contact form on your website.\n\n";
+    $body .= "Name: " . $name . "\n";
+    $body .= "Email: " . $email . "\n\n";
+    $body .= "Message:\n" . $message . "\n";
+
+    // Set the headers for the email
+    $headers = "From: " . $email . "\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    // Send the email
+    if (mail($to, $subject, $body, $headers)) {
+        echo "<p>Message sent successfully!</p>";
+    } else {
+        echo "<p>Failed to send the message. Please try again.</p>";
+    }
+}
+?>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="icon" href="Screenshot 2024-10-30 7.28.56 PM.png" type="image">
     <style>
@@ -123,7 +159,7 @@
     <div class="container">
         <section class="contact-form">
             <h2>Feel free to send me any message</h2>
-            <form action="send-email.php" method="POST">
+            <form action="contact.php" method="POST">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
