@@ -14,7 +14,7 @@
 
 .moving-title {
     position: absolute;
-    font-size: 2.5em;
+    font-size: 3.0em;
     color: pink;
     animation: moveIn 4s ease-in-out forwards;
     text-shadow:2px 3px 5px white;
