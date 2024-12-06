@@ -210,7 +210,15 @@ nav>button:hover>svg {
     
 }
 
-#homelinks{
+#homelinks-about{
+    color:#77a3bf;
+}
+
+#homelinks-resume{
+    color:#77a3bf;
+}
+
+#homelinks-portafolio{
     color:#77a3bf;
 }
 
